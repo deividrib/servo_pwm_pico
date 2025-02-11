@@ -7,18 +7,6 @@ Este projeto implementa o controle de um servomotor padrão e o ajuste do brilho
 - Movimentação suave do servomotor entre os ângulos de 0° e 180°;
 - Ajuste do brilho do LED (GPIO 12) de forma proporcional à posição do servomotor.
 
-## Índice
-
-- [Descrição do Projeto](#descrição-do-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instruções de Uso](#instruções-de-uso)
-- [Simulação no Wokwi](#simulação-no-wokwi)
-- [Vídeo Ensaio](#vídeo-ensaio)
-- [Licença](#licença)
-- [Contato](#contato)
-
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido para a atividade **"Controle de servomotor por PWM"** e utiliza o Pico SDK com a linguagem C para controlar tanto um servomotor (através do PWM no GPIO 22) quanto um LED RGB (através do PWM no GPIO 12). A simulação pode ser realizada utilizando o simulador de eletrônica online [Wokwi](https://wokwi.com/).
