@@ -51,7 +51,7 @@ int main() {
     pwm_set_enabled(servo_slice, true);
     pwm_set_enabled(led_slice, true);
 
-    // **Setup inicial**: Define posições fixas antes da movimentação infinita
+    // **Setup inicial**: Define posições fixas antes da movimentação finita
     set_servo_pwm(SERVO_POS_180);
     set_led_pwm(PWM_WRAP);
     sleep_ms(5000);
